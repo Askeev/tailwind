@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: Aeroportbd;
+    src: url('./fonts_famaly/Aeroport-Bold.ttf') ;
+    }
+
+    @font-face {
+    font-family: Aeroport-bold-italic;
+    src: url('./fonts_famaly/Aeroport-BoldItalic.ttf') ;
+    }
+    @font-face {
+        font-family: Aeroport-italic;
+        src: url('./fonts_famaly/Aeroport-Italic.ttf');
+    }
+    @font-face {
+        font-family: Aeroport-litgh;
+        src: url('./fonts_famaly/Aeroport-Light.ttf');
+    }
+    @font-face {
+        font-family: Aeroport-litgh-italic;
+        src: url('./fonts_famaly/Aeroport-LightItalic.ttf');
+    }
+    @font-face {
+        font-family: Aeroport-md;
+        src: url('./fonts_famaly/Aeroport-Medium.ttf');
+    }
+    @font-face {
+        font-family: Aeroport-md-italic;
+        src: url('./fonts_famaly/Aeroport-MediumItalic.ttf');
+    }
+    @font-face {
+        font-family: Aeroport;
+        src: url('./fonts_famaly/Aeroport.ttf');
+    }
+    @font-face {
+        font-family: Aeroport-mono;
+        src: url('./fonts_famaly/AeroportMono.ttf');
+    }
+
+body{font-family: Aeroport;}
+.abd{font-family: Aeroportbd;}
+.abi{font-family: Aeroport-bold-italic;}
+.ai{font-family: Aeroport-litgh;}
+.ali{font-family: Aeroport-litgh-italic;}
+.amd{font-family: Aeroport-md;}
+.ami{font-family: Aeroport-md-italic;}
+.am{font-family: Aeroport-mono;}
+.abd{font-family: Aeroportbd;}
+.op{opacity: 0.5;}
